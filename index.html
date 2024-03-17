@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #game-container {
+            margin-top: 50px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Sample Game!</h1>
+    <div id="game-container">
+        <p>Click the button to play the game:</p>
+        <button class="button" onclick="startGame()">Start Game</button>
+    </div>
+
+    <script>
+        function startGame() {
+            alert("Let the game begin!");
+            // You can add your game logic here
+        }
+    </script>
+</body>
+</html>
